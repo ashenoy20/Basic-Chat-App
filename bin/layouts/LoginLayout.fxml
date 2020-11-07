@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layouts.LoginLayoutController">
+   <children>
+      <TextField fx:id="userNameField" layoutX="210.0" layoutY="118.0" prefHeight="25.0" prefWidth="182.0" promptText="Enter Username" />
+      <Label layoutX="191.0" layoutY="7.0" prefHeight="79.0" prefWidth="233.0" text="LocalChatApp">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="122.0" text="Username" />
+      <Label layoutX="128.0" layoutY="179.0" text="Password" />
+      <Button fx:id="loginBtn" layoutX="271.0" layoutY="225.0" mnemonicParsing="false" onAction="#loginBtnAction" text="Login" />
+      <PasswordField fx:id="passWordField" layoutX="210.0" layoutY="175.0" prefHeight="25.0" prefWidth="182.0" promptText="Enter Password" />
+      <Label layoutX="199.0" layoutY="331.0" text="Don't have an account? Register Now!" />
+      <Button fx:id="registerBtn" layoutX="268.0" layoutY="355.0" mnemonicParsing="false" text="Register" />
+   </children>
+</Pane>
